@@ -61,7 +61,7 @@ const unsortedExperiences = [
     director: "Director - Prabhat Rawat"
   },
   {
-    period: "From April 2025 till Now",
+    period: "From April 2025 to May 2025",
     role: "Associate Director",
     production: "Serial- \"Veer Hanuman\" for Sony TV",
     company: "Swastik Entertainment",
@@ -122,6 +122,13 @@ const unsortedExperiences = [
     production: "Serial- Ghar Ek Sapna on SAHARA ONE",
     company: "Ananda Films",
     director: "Director - Ajay Sinha"
+  },
+  {
+    period: "June 2025 till Now",
+    role: "Second Unit Director & Associate Director",
+    production: "Serial- Kahani Pehle Pyaar Ki on Dangal TV",
+    company: "Cinemakers Production",
+    director: "Director - Prabhat Rawat"
   }
 ];
 
