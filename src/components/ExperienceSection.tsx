@@ -125,19 +125,28 @@ const unsortedExperiences = [
   },
   {
     period: "June 2025 till Now",
-    role: "Second Unit Director & Associate Director",
+    role: "Associate & Second Unit Director",
     production: "Serial- Kahani Pehle Pyaar Ki on Dangal TV",
     company: "Cinemakers Production",
     director: "Director - Prabhat Rawat"
   }
 ];
 
-// Sort experiences in ascending order by start date
+// Sort experiences in descending order by start date (most recent first)
 const experiences = [...unsortedExperiences].sort((a, b) => {
   const dateA = getStartDate(a.period);
   const dateB = getStartDate(b.period);
-  return dateA.getTime() - dateB.getTime();
+  return dateB.getTime() - dateA.getTime();
 });
+
+// Filter experiences by role
+const secondUnitDirectorExperiences = experiences.filter(
+  exp => exp.role === "Associate & Second Unit Director"
+);
+
+const otherExperiences = experiences.filter(
+  exp => exp.role !== "Associate & Second Unit Director"
+);
 
 const ExperienceCard = ({ experience, index }: { experience: typeof experiences[0], index: number }) => {
   return (
@@ -185,11 +194,49 @@ const ExperienceSection = () => {
           </p>
         </motion.div>
         
-        <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} index={index} />
-          ))}
-        </div>
+        {/* Associate & Second Unit Director Section */}
+        {secondUnitDirectorExperiences.length > 0 && (
+          <div className="mb-16">
+            <motion.div 
+              className="text-center mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Associate & Second Unit Director</h3>
+              <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
+            </motion.div>
+            
+            <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+              {secondUnitDirectorExperiences.map((experience, index) => (
+                <ExperienceCard key={`second-unit-${index}`} experience={experience} index={index} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Other Experiences Section */}
+        {otherExperiences.length > 0 && (
+          <div>
+            <motion.div 
+              className="text-center mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Other Roles</h3>
+              <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
+            </motion.div>
+            
+            <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+              {otherExperiences.map((experience, index) => (
+                <ExperienceCard key={`other-${index}`} experience={experience} index={index} />
+              ))}
+            </div>
+          </div>
+        )}
         
         <motion.div 
           className="mt-16 bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto"
