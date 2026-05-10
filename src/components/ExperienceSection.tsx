@@ -383,7 +383,7 @@ const ExperienceSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Other Roles - TV Shows</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Other Roles -TV Shows</h3>
               <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
             </motion.div>
 
