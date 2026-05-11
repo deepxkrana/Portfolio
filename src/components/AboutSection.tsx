@@ -21,7 +21,7 @@ const AboutSection = () => {
               <div className="md:w-1/3 bg-indigo-600 text-white p-6">
                 <div className="h-32 w-32 rounded-full bg-white/20 mx-auto mb-6 overflow-hidden">
                   <img 
-                    src="/Profilephoto.jpeg" 
+                    src="profilephoto2.jpg" 
                     alt="Profile Photo of Rajendra Rana" 
                     className="w-full h-full object-cover"
                   />
