@@ -5,6 +5,7 @@ import { Calendar, Award, ExternalLink } from 'lucide-react';
 export interface Experience {
   period: string;
   role: string;
+  type: string;
   production: string;
   company: string;
   director: string;
@@ -52,6 +53,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From 2022 to 2023",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Choti Sardaarni\" for Colors TV",
     company: "Cockrow & Shaika Entertainment",
     director: "Director - Jaladh Sharma"
@@ -59,6 +61,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From January 2023 to June 2024",
     role: "Associate & Second Unit Director",
+    type: "TV Show",
     production: "Serial- \"Teri Meri Doriyaan\" for Star Plus",
     company: "Cockrow & Shaika Entertainment",
     director: "Director - Prabhat Rawat"
@@ -66,6 +69,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From November 2024 to January 2025",
     role: "Associate & Second Unit Director",
+    type: "TV Show",
     production: "Serial- \"Deewaniyat\" for Star Plus",
     company: "Cockrow & Shaika Entertainment",
     director: "Director - Prabhat Rawat"
@@ -73,6 +77,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From April 2025 to May 2025",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Veer Hanuman\" for Sony TV",
     company: "Swastik Entertainment",
     director: "Director - Kamal Monga"
@@ -80,6 +85,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From 2020 to 2022",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Ye Rishta kya kahlata hai\" for Star Plus",
     company: "Director's Kut production",
     director: "Director - Rishi Mandiyal"
@@ -87,6 +93,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From Early 2019 to Late 2019",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Baavle Utaavle\" for Sony SAB",
     company: "Director's Kut production",
     director: "Director - Rishi Mandiyal"
@@ -94,6 +101,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "From June 2014 to 2018",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Kumkum Bhagya\" on Zee TV & \"Meri Aashiqui Tum Se He\" on Colors TV",
     company: "Balaji Telefilms",
     director: "Director - Sharad Pandey"
@@ -101,6 +109,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "December 2012 to April 2014",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Buddy Project S1 & S2\" on MTV VOOT",
     company: "Sunshine Production",
     director: "Director - Vikram Labhe"
@@ -108,6 +117,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "March 2012 to September 2012",
     role: "Associate Director",
+    type: "TV Show",
     production: "Serial- \"Kuchh To Log Kahenge\" on SONY TV",
     company: "Director's Kut Production",
     director: "Director - Sharad Pandey"
@@ -115,6 +125,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "December 2011 to March 2012",
     role: "Chief Assistant Director",
+    type: "TV Show",
     production: "Serial- HAVAN on COLORS TV",
     company: "Directors Kut Production",
     director: "Director - Shyam Maheshwari & Sharad Pandey"
@@ -122,6 +133,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "October 2009 to July 2011",
     role: "Assistant Director",
+    type: "TV Show",
     production: "Serial- Kesariya baalam Aawo Hamare Des on SAHARA ONE",
     company: "Ananda Films",
     director: "Director - Jaladh Sharma"
@@ -129,13 +141,15 @@ const unsortedExperiences: Experience[] = [
   {
     period: "December 2006 to September 2009",
     role: "Assistant Director",
+    type: "TV Show",
     production: "Serial- Ghar Ek Sapna on SAHARA ONE",
     company: "Ananda Films",
     director: "Director - Ajay Sinha"
   },
   {
     period: "June 2025 till Now",
-    role: "Associate & Second Unit Director",
+    role: "Second Unit Director",
+    type: "TV Show",
     production: "Serial- Kahani Pehle Pyaar Ki on Dangal TV",
     company: "Cinemakers Production",
     director: "Director - Prabhat Rawat"
@@ -143,6 +157,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- Slave to my CEO wife",
     company: "Vertical TV",
     director: "Director - Rajendra Rana",
@@ -152,6 +167,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- Do Chehre",
     company: "Flick TV",
     director: "Director - Rajendra Rana",
@@ -161,6 +177,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- Jab Tum Saath Ho",
     company: "Flick TV",
     director: "Director - Rajendra Rana",
@@ -170,6 +187,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- My Missing Wife",
     company: "Story TV",
     director: "Director - Rajendra Rana",
@@ -179,6 +197,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- Dil To Rascal Hai Ji",
     company: "Story TV",
     director: "Director - Rajendra Rana",
@@ -188,6 +207,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- Honeymooning With My Ex",
     company: "Vertical TV",
     director: "Director - Rajendra Rana",
@@ -196,7 +216,8 @@ const unsortedExperiences: Experience[] = [
   },
   {
     period: "2025",
-    role: "Second UnitDirector",
+    role: "Director & Second Unit Director",
+    type: "Vertical",
     production: "Story- Toxic Lover",
     company: "Vertical TV",
     director: "Director - Rajendra Rana",
@@ -206,6 +227,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2026",
     role: "Director",
+    type: "Vertical",
     production: "Story- Cell No. 16",
     company: "Pratilipi",
     director: "Director - Rajendra Rana",
@@ -215,6 +237,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2026",
     role: "Director",
+    type: "Vertical",
     production: "Story- Bepanaah Rishta",
     company: "Pratilipi",
     director: "Director - Rajendra Rana",
@@ -224,6 +247,7 @@ const unsortedExperiences: Experience[] = [
   {
     period: "2025",
     role: "Director",
+    type: "Vertical",
     production: "Story- Share Bazaar Ka Badshah",
     company: "Viralo TV",
     director: "Director - Rajendra Rana",
@@ -241,15 +265,15 @@ const experiences = [...unsortedExperiences].sort((a, b) => {
 
 // Filter experiences by role
 const VerticalDirectorExperiences = experiences.filter(
-  exp => exp.role === "Director"
+  exp => exp.type === "Vertical"
 );
 
 const secondUnitDirectorExperiences = experiences.filter(
-  exp => exp.role === "Associate & Second Unit Director"
+  exp => exp.role === "Associate Director" || exp.role === "Associate" || exp.role === "Associate & Second Unit Director" || exp.role === "Second Unit Director"
 );
 
 const otherExperiences = experiences.filter(
-  exp => exp.role !== "Associate & Second Unit Director" && exp.role !== "Director"
+  exp => !VerticalDirectorExperiences.includes(exp) && !secondUnitDirectorExperiences.includes(exp)
 );
 
 const ExperienceCard = ({ experience, index, hideDirector = false }: { experience: Experience, index: number, hideDirector?: boolean }) => {
@@ -361,7 +385,7 @@ const ExperienceSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Associate & Second Unit Director -TV Shows</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Associate & Second Unit Director - TV Shows</h3>
               <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
             </motion.div>
 
@@ -383,7 +407,7 @@ const ExperienceSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Other Roles -TV Shows</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Other Roles - TV Shows</h3>
               <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
             </motion.div>
 
