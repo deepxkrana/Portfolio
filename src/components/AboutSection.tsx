@@ -36,7 +36,7 @@ const AboutSection = () => {
                       <Briefcase size={20} className="text-indigo-200" />
                     </div>
                     <div>
-                      <span className="font-medium">Director & Associate Director</span>
+                      <span className="font-medium">Director</span>
                     </div>
                   </div>
                   
@@ -97,22 +97,20 @@ const AboutSection = () => {
                 <h3 className="text-xl font-bold mb-4 text-gray-800">Professional Summary</h3>
                 
                 <p className="text-gray-600 mb-4">
-                  I am a seasoned Director and Associate Director with extensive experience in the Film and Television Industry since 2006. Over the years, I have worked with some of the most reputed production houses and directors, contributing to a wide range of successful television serials aired on leading channels such as Colors TV, Sony TV, Star Plus, and Zee TV.
+                  I am a seasoned Director with extensive experience in the Film and Television Industry since 2006. Over the years, I have worked with some of the most reputed production houses and directors, contributing to a wide range of successful television serials, Micro Dramas aired on leading channels such as Colors TV, Sony TV, Star Plus, Zee TV, FlickTV, Pratilipi, StoryTV etc.
                 </p>
                 
                 <p className="text-gray-600 mb-4">
-                  My core strengths include visual storytelling, scene planning, second unit direction, and efficient management of cast and crew across diverse shooting environments. I bring a deep understanding of cinematic techniques, with hands-on expertise in handling HD, P2-HD, Movie Cameras, and 5D systems. I excel at maintaining continuity, optimizing shooting schedules, and executing the creative vision from script to screen — both on set and in the studio.
+                  My core strengths include visual storytelling, creative direction, scene planning and efficient management of cast and crew across diverse shooting environments. I bring a deep understanding of cinematic techniques, with hands-on expertise in handling HD, P2-HD, Movie Cameras, and 5D systems. I excel at maintaining continuity, optimizing shooting schedules, and executing the creative vision from script to screen — both on set and in the studio.
                 </p>
                 
                 <h3 className="text-xl font-bold mb-4 text-gray-800 mt-8">Job Profile</h3>
                 
                 <ul className="text-gray-600 space-y-2 list-disc pl-5">
-                  <li>Directing scenes for TV broadcasts and commercials</li>
+                  <li>Directing scenes for TV broadcasts, Micro Dramas and commercials</li>
                   <li>Evaluating locations and sets to determine filming and lighting requirements</li>
                   <li>Composing shots with technical precision using light, filters, and camera settings</li>
-                  <li>Leading technical teams: sound, lighting, and camera crew</li>
-                  <li>Ensuring continuity on location and in the studio</li>
-                  <li>Managing Second Units and Split Units</li>
+                  <li>Leading technical teams and Unit: sound, lighting, and camera crew</li>
                   <li>Driving creative vision from script to screen</li>
                 </ul>
               </div>

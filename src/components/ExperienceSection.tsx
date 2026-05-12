@@ -56,23 +56,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Choti Sardaarni\" for Colors TV",
     company: "Cockrow & Shaika Entertainment",
-    director: "Director - Jaladh Sharma"
-  },
-  {
-    period: "From January 2023 to June 2024",
-    role: "Associate & Second Unit Director",
-    type: "TV Show",
-    production: "Serial- \"Teri Meri Doriyaan\" for Star Plus",
-    company: "Cockrow & Shaika Entertainment",
-    director: "Director - Prabhat Rawat"
-  },
-  {
-    period: "From November 2024 to January 2025",
-    role: "Associate & Second Unit Director",
-    type: "TV Show",
-    production: "Serial- \"Deewaniyat\" for Star Plus",
-    company: "Cockrow & Shaika Entertainment",
-    director: "Director - Prabhat Rawat"
+    director: "Jaladh Sharma"
   },
   {
     period: "From April 2025 to May 2025",
@@ -80,7 +64,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Veer Hanuman\" for Sony TV",
     company: "Swastik Entertainment",
-    director: "Director - Kamal Monga"
+    director: "Kamal Monga"
   },
   {
     period: "From 2020 to 2022",
@@ -88,7 +72,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Ye Rishta kya kahlata hai\" for Star Plus",
     company: "Director's Kut production",
-    director: "Director - Rishi Mandiyal"
+    director: "Rishi Mandiyal"
   },
   {
     period: "From Early 2019 to Late 2019",
@@ -96,7 +80,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Baavle Utaavle\" for Sony SAB",
     company: "Director's Kut production",
-    director: "Director - Rishi Mandiyal"
+    director: "Rishi Mandiyal"
   },
   {
     period: "From June 2014 to 2018",
@@ -104,7 +88,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Kumkum Bhagya\" on Zee TV & \"Meri Aashiqui Tum Se He\" on Colors TV",
     company: "Balaji Telefilms",
-    director: "Director - Sharad Pandey"
+    director: "Sharad Pandey"
   },
   {
     period: "December 2012 to April 2014",
@@ -112,7 +96,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Buddy Project S1 & S2\" on MTV VOOT",
     company: "Sunshine Production",
-    director: "Director - Vikram Labhe"
+    director: "Vikram Labhe"
   },
   {
     period: "March 2012 to September 2012",
@@ -120,7 +104,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- \"Kuchh To Log Kahenge\" on SONY TV",
     company: "Director's Kut Production",
-    director: "Director - Sharad Pandey"
+    director: "Sharad Pandey"
   },
   {
     period: "December 2011 to March 2012",
@@ -128,7 +112,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- HAVAN on COLORS TV",
     company: "Directors Kut Production",
-    director: "Director - Shyam Maheshwari & Sharad Pandey"
+    director: "Shyam Maheshwari & Sharad Pandey"
   },
   {
     period: "October 2009 to July 2011",
@@ -136,7 +120,7 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- Kesariya baalam Aawo Hamare Des on SAHARA ONE",
     company: "Ananda Films",
-    director: "Director - Jaladh Sharma"
+    director: "Jaladh Sharma"
   },
   {
     period: "December 2006 to September 2009",
@@ -144,15 +128,31 @@ const unsortedExperiences: Experience[] = [
     type: "TV Show",
     production: "Serial- Ghar Ek Sapna on SAHARA ONE",
     company: "Ananda Films",
-    director: "Director - Ajay Sinha"
+    director: "Ajay Sinha"
   },
   {
     period: "June 2025 till Now",
-    role: "Second Unit Director",
+    role: "Director",
     type: "TV Show",
     production: "Serial- Kahani Pehle Pyaar Ki on Dangal TV",
     company: "Cinemakers Production",
-    director: "Director - Prabhat Rawat"
+    director: "Rajendra Rana"
+  },
+  {
+    period: "From January 2023 to June 2024",
+    role: "Director",
+    type: "TV Show",
+    production: "Serial- \"Teri Meri Doriyaan\" for Star Plus",
+    company: "Cockrow & Shaika Entertainment",
+    director: "Rajendra Rana"
+  },
+  {
+    period: "From November 2024 to January 2025",
+    role: "Director",
+    type: "TV Show",
+    production: "Serial- \"Deewaniyat\" for Star Plus",
+    company: "Cockrow & Shaika Entertainment",
+    director: "Rajendra Rana"
   },
   {
     period: "2025",
@@ -160,7 +160,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Slave to my CEO wife",
     company: "Vertical TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DMam4UMSiNE/?igsh=MTB6NWV2Yml1bmJnNg==",
     thumbnail: "STMCW.jpg"
   },
@@ -170,7 +170,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Do Chehre",
     company: "Flick TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DQ3gMb7CXRM/?igsh=Y3F4MzFjaXVzZDF0",
     thumbnail: "DC.jpg"
   },
@@ -180,7 +180,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Jab Tum Saath Ho",
     company: "Flick TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DQTzT7Iidfo/?igsh=eXl0OXgwbmYwanF5",
     thumbnail: "JTSH.jpg"
   },
@@ -190,7 +190,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- My Missing Wife",
     company: "Story TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DMrajGspu3G/?igsh=emxwbm5rajJ4emdl",
     thumbnail: "MMW.jpg"
   },
@@ -200,7 +200,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Dil To Rascal Hai Ji",
     company: "Story TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DMXzxAzpM3V/?igsh=MTV5ZjcwbGJoOHh3OA==",
     thumbnail: "DTRHJ.jpg"
   },
@@ -210,17 +210,17 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Honeymooning With My Ex",
     company: "Vertical TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DKcN_rxS3MR/?igsh=MTV5d282eW9zNHV0",
     thumbnail: "HWME.jpg"
   },
   {
     period: "2025",
-    role: "Director & Second Unit Director",
+    role: "Director",
     type: "Vertical",
     production: "Story- Toxic Lover",
     company: "Vertical TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DNqcUsSy-t3/?igsh=MXV0Nnh2czJ4azN4YQ==",
     thumbnail: "TL.jpg"
   },
@@ -230,7 +230,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Cell No. 16",
     company: "Pratilipi",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DW6uy2rDeiu/?igsh=MXFzZzR1dHF3a3Fyaw==",
     thumbnail: "CN16.jpg"
   },
@@ -240,7 +240,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Bepanaah Rishta",
     company: "Pratilipi",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DXHm23SFGOn/?igsh=MWxmaXdoOGYzb2w3Yw==",
     thumbnail: "BR.jpg"
   },
@@ -250,7 +250,7 @@ const unsortedExperiences: Experience[] = [
     type: "Vertical",
     production: "Story- Share Bazaar Ka Badshah",
     company: "Viralo TV",
-    director: "Director - Rajendra Rana",
+    director: "Rajendra Rana",
     link: "https://www.instagram.com/reel/DPqjKQyiigL/?igsh=MTNrcXVpemd2am5hZA==",
     thumbnail: "SBKB.jpg"
   },
@@ -269,12 +269,9 @@ const VerticalDirectorExperiences = experiences.filter(
 );
 
 const secondUnitDirectorExperiences = experiences.filter(
-  exp => exp.role === "Associate Director" || exp.role === "Associate" || exp.role === "Associate & Second Unit Director" || exp.role === "Second Unit Director"
+  exp => exp.role === "Director" && exp.type === "TV Show"
 );
 
-const otherExperiences = experiences.filter(
-  exp => !VerticalDirectorExperiences.includes(exp) && !secondUnitDirectorExperiences.includes(exp)
-);
 
 const ExperienceCard = ({ experience, index, hideDirector = false }: { experience: Experience, index: number, hideDirector?: boolean }) => {
   return (
@@ -298,7 +295,7 @@ const ExperienceCard = ({ experience, index, hideDirector = false }: { experienc
         </p>
         {!hideDirector && (
           <p className="text-gray-600">
-            <span className="font-medium">Direction:</span> {experience.director}
+            <span className="font-medium">Director:</span> {experience.director}
           </p>
         )}
       </div>
@@ -349,7 +346,7 @@ const ExperienceSection = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Work Experience</h2>
           <div className="w-24 h-1 bg-indigo-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Over 18 years of experience in the Film and Television Industry, working with renowned production houses and directors on popular TV serials.
+            Over 18 years of experience in the Film and Television Industry, working with renowned production houses and directors on popular TV serials and Micro Dramas.
           </p>
         </motion.div>
 
@@ -363,7 +360,7 @@ const ExperienceSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Director & Second Unit Director - Micro Drama</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Director - Micro Drama</h3>
               <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
             </motion.div>
 
@@ -385,7 +382,7 @@ const ExperienceSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Associate & Second Unit Director - TV Shows</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">Director - TV Shows</h3>
               <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
             </motion.div>
 
@@ -397,27 +394,6 @@ const ExperienceSection = () => {
           </div>
         )}
 
-        {/* Other Experiences Section */}
-        {otherExperiences.length > 0 && (
-          <div>
-            <motion.div
-              className="text-center mb-12"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
-            >
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Other Roles - TV Shows</h3>
-              <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
-            </motion.div>
-
-            <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
-              {otherExperiences.map((experience, index) => (
-                <ExperienceCard key={`other-${index}`} experience={experience} index={index} />
-              ))}
-            </div>
-          </div>
-        )}
 
         <motion.div
           className="mt-16 bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto"
@@ -434,7 +410,7 @@ const ExperienceSection = () => {
           <p className="text-gray-600 mb-6">
             To show my efficiency in the production house and to challenge my position in the film industry,
             to develop a long term within moral and dynamic organization, at a responsible position,
-            provides an excellent work atmosphere with high performance incentive and opportunities.
+            to provide an excellent work atmosphere with high performance incentive and opportunities.
           </p>
 
           <div>
@@ -442,8 +418,8 @@ const ExperienceSection = () => {
             <ul className="text-gray-600 space-y-2 list-disc pl-5">
               <li>Ready to work for hours in crisis situations</li>
               <li>Ability to take initiatives in all types of shoots</li>
-              <li>Implement plans honestly as asked by Seniors & Colleagues</li>
-              <li>Always eager to learn good things to improve work accuracy</li>
+              <li>Implement plans honestly to align well with the production houses' vision and requirements</li>
+              <li>Always eager to learn new things to improve work accuracy</li>
             </ul>
           </div>
         </motion.div>

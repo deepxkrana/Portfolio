@@ -19,7 +19,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Rajendra Rana</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Director & Associate Director with over 18 years of experience in the Film and Television Industry.
+              Director with over 18 years of experience in the Film and Television Industry.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ const Footer = () => {
         >
           <p className="text-gray-500">
             © {new Date().getFullYear()} Rajendra Rana. All rights reserved.<br />
-            <span className="text-gray-600">Director & Associate Director</span>
+            <span className="text-gray-600">Director</span>
           </p>
         </motion.div>
       </div>

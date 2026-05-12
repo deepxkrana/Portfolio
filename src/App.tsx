@@ -26,7 +26,7 @@ function App() {
             transition={{ duration: 0.7 }}
           >
             <p className="text-gray-400">© {new Date().getFullYear()} Rajendra Rana. All rights reserved.</p>
-            <p className="text-gray-500 mt-2 text-sm">Director & Associate Director</p>
+            <p className="text-gray-500 mt-2 text-m">Director</p>
           </motion.div>
         </div>
       </footer>

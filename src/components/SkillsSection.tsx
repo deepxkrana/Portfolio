@@ -11,13 +11,13 @@ type Skill = {
 const skills: Skill[] = [
   {
     name: "Creative Vision",
-    level: 95,
+    level: 99,
     icon: <Brain size={24} />,
     color: "bg-blue-500"
   },
   {
     name: "Direction",
-    level: 95,
+    level: 99,
     icon: <Clapperboard size={24} />,
     color: "bg-indigo-600"
   },
@@ -35,19 +35,19 @@ const skills: Skill[] = [
   },
   {
     name: "Crew Management",
-    level: 90,
+    level: 95,
     icon: <Tv size={24} />,
     color: "bg-green-500"
   },
   {
     name: "Computing Skills",
-    level: 75,
+    level: 85,
     icon: <MonitorPlay size={24} />,
     color: "bg-yellow-500"
   },
   {
     name: "Problem Solving",
-    level: 85,
+    level: 90,
     icon: <Lightbulb size={24} />,
     color: "bg-orange-500"
   },
@@ -152,11 +152,11 @@ const SkillsSection = () => {
               <ul className="text-gray-600 space-y-2">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-indigo-500"></span>
-                  <span>Operating Systems: MS-DOS, MS-Win 2000/XP/7/10</span>
+                  <span>Operating Systems:Microsoft Windows, MacOS</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-indigo-500"></span>
-                  <span>Application Packages: MS-Office 2000/2003/2007</span>
+                  <span>Application Packages: MS-Office, Preview (MAC)</span>
                 </li>
               </ul>
             </div>
