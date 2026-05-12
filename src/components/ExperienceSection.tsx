@@ -132,27 +132,37 @@ const unsortedExperiences: Experience[] = [
   },
   {
     period: "June 2025 till Now",
-    role: "Director",
+    role: "Second Unit Director",
     type: "TV Show",
     production: "Serial- Kahani Pehle Pyaar Ki on Dangal TV",
     company: "Cinemakers Production",
-    director: "Rajendra Rana"
+    director: "Prabhat Rawat"
   },
   {
     period: "From January 2023 to June 2024",
-    role: "Director",
+    role: "Second Unit Director",
     type: "TV Show",
     production: "Serial- \"Teri Meri Doriyaan\" for Star Plus",
     company: "Cockrow & Shaika Entertainment",
-    director: "Rajendra Rana"
+    director: "Prabhat Rawat"
   },
   {
     period: "From November 2024 to January 2025",
-    role: "Director",
+    role: "Second Unit Director",
     type: "TV Show",
     production: "Serial- \"Deewaniyat\" for Star Plus",
     company: "Cockrow & Shaika Entertainment",
-    director: "Rajendra Rana"
+    director: "Prabhat Rawat"
+  },
+  {
+    period: "2026",
+    role: "Director",
+    type: "Vertical",
+    production: "Story - ACP Vikrant",
+    company: "Vertical TV",
+    director: "Ankur Kukatkar",
+    link: "https://youtu.be/G4_NHA2RJvs?si=y4J5xD-CiQFfhPGx",
+    thumbnail: "ACPV.jpg"
   },
   {
     period: "2025",
@@ -269,7 +279,7 @@ const VerticalDirectorExperiences = experiences.filter(
 );
 
 const secondUnitDirectorExperiences = experiences.filter(
-  exp => exp.role === "Director" && exp.type === "TV Show"
+  exp => exp.role === "Second Unit Director" && exp.type === "TV Show"
 );
 
 
