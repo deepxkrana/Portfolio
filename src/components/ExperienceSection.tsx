@@ -159,7 +159,7 @@ const unsortedExperiences: Experience[] = [
     role: "Director",
     type: "Vertical",
     production: "Story - ACP Vikrant",
-    company: "Vertical TV",
+    company: "Kutingg",
     director: "Ankur Kukatkar",
     link: "https://youtu.be/G4_NHA2RJvs?si=y4J5xD-CiQFfhPGx",
     thumbnail: "ACPV.jpg"
